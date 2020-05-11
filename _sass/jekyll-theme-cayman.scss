@@ -3,6 +3,10 @@
 @import "variables";
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500');
 
+@mixin large {
+    @content;
+}
+
 @mixin medium {
   @media screen and (min-width: #{$medium-breakpoint}) and (max-width: #{$large-breakpoint}) {
     @content;
