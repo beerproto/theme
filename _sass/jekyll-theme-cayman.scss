@@ -123,6 +123,10 @@ a {
   @include small {
     padding: 2rem 1rem;
   }
+    
+  a {
+    color: $header-heading-color;  
+  }
 }
 
 .banner {
